@@ -1,0 +1,41 @@
+.sidenav {
+  background-color: #3f51b5;
+  width: 8vw;
+}
+
+.sidenav a {
+  color: white;
+}
+
+.sidenav i {
+  padding-right: 1vw;
+}
+
+.content {
+  padding: 2.5vw;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .sidenav {
+    width: 23vw;
+  }
+}
+/* 
+@media (max-width: 800px) {
+  .sidenav {
+    width: 18vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sidenav {
+    width: 16vw;
+  }
+}
+
+@media (max-width: 1280px) {
+  .sidenav {
+    width: 14vw;
+  }
+} */
